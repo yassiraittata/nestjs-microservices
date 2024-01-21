@@ -6,5 +6,7 @@ export class OrdersController {
   constructor(private readonly ordersService: OrdersService) {}
 
   @Post()
-  creatOrder() {}
+  creatOrder() {
+    console.log('create order')
+  }
 }
