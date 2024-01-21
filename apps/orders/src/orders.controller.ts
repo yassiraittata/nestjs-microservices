@@ -7,6 +7,5 @@ export class OrdersController {
 
   @Post()
   creatOrder() {
-    console.log('create order')
   }
 }
